@@ -22,14 +22,14 @@
 ---
 
 ## Features
-- 🧠 **IK Chain** — kepala mengikuti target, tubuh mengikuti secara berantai.
-- 🌊 **Ripple & Twitch** — gerak organik (wave amp/freq + micro jitter).
-- 💡 **Glow & Motion Blur** — additive blending + jejak gerak halus.
-- 🦴 **Body/Rings/Spines/Legs** — komponen anatomi yang bisa di-toggle.
-- 🧩 **OOP & Modular** — `Canvas`, `Segment`, `Reptile` (clean architecture).
-- ⚙️ **Live Controls** — tebal tubuh, panjang dasar, jumlah segmen, wave, glow, motion.
+- 🧠 **IK Chain** — head follows a target; segments follow in a chained IK.
+- 🌊 **Ripple & Micro-Twitch** — organic motion via wave amplitude/frequency plus subtle jitter.
+- 💡 **Glow & Motion Blur** — additive blending and soft motion trails.
+- 🦴 **Anatomy Modules** — body tube shading, rings, legs, dorsal & tail spines; all toggleable.
+- 🧩 **OOP & Modular** — `Canvas`, `Segment`, `Reptile` with clear responsibilities.
+- ⚙️ **Live Controls** — thickness, base length, segment count, wave amp/freq, easing, glow, motion blur.
 
 ## Quick Start
 ```bash
-# pakai VS Code Live Server (atau server statis apa pun)
-# cukup buka index.html
+# No build tools, no dependencies.
+# Open index.html with a static server (e.g., VS Code Live Server) or double-click it.
