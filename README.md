@@ -5,14 +5,7 @@
   Clean OOP modules, zero dependencies, and a sleek control panel for live tweaking.
 </p>
 
-<p align="center">
-  <a href="https://ahuaiqom.github.io/SerpenX">Live Demo</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#quick-start">Quick Start</a> ·
-  <a href="#controls">Controls</a> ·
-  <a href="#architecture">Architecture</a> ·
-  <a href="#license">License</a>
-</p>
+
 
 <p align="center">
   <!-- Optional banner (place a 1280x640 image at /og.png) -->
