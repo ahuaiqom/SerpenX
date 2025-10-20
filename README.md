@@ -7,10 +7,6 @@
 
 
 
-<p align="center">
-  <!-- Optional banner (place a 1280x640 image at /og.png) -->
-  <img alt="SerpenX preview" src="og.png" width="900">
-</p>
 
 <p align="center">
   <img alt="badge" src="https://img.shields.io/badge/HTML5-Canvas-orange">
