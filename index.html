@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ReptileX + Controls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <!-- HUD title -->
+  <div class="hud">
+    <div class="title">ReptileX </div>
+    <div class="hint">Mouse follow • Space: pause • R: reset</div>
+  </div>
+
+  <!-- CONTROL PANEL -->
+  <form class="panel" id="controls">
+    <div class="row">
+      <label>Thickness</label>
+      <input type="range" min="0" max="1" step="0.01" id="thickness" value="0.9">
+      <output id="thicknessOut">0.90</output>
+    </div>
+
+    <div class="row">
+      <label>Base Length</label>
+      <input type="range" min="10" max="24" step="1" id="baseLen" value="18">
+      <output id="baseLenOut">18</output>
+    </div>
+
+    <div class="row">
+      <label>Segments</label>
+      <input type="range" min="24" max="100" step="1" id="segCount" value="78">
+      <output id="segCountOut">78</output>
+    </div>
+
+    <div class="row">
+      <label>Wave Amp</label>
+      <input type="range" min="0" max="20" step="1" id="waveAmp" value="12">
+      <output id="waveAmpOut">12</output>
+    </div>
+
+    <div class="row">
+      <label>Wave Freq</label>
+      <input type="range" min="0.05" max="0.5" step="0.01" id="waveFreq" value="0.19">
+      <output id="waveFreqOut">0.19</output>
+    </div>
+
+    <div class="row">
+      <label>Easing</label>
+      <input type="range" min="0.05" max="0.3" step="0.01" id="ease" value="0.14">
+      <output id="easeOut">0.14</output>
+    </div>
+
+    <div class="row toggles">
+      <label><input type="checkbox" id="glow" checked> Glow</label>
+      <label><input type="checkbox" id="motion" checked> Motion blur</label>
+      <label><input type="checkbox" id="body" checked> Body</label>
+      <label><input type="checkbox" id="rings" checked> Rings</label>
+      <label><input type="checkbox" id="legs" checked> Legs</label>
+      <label><input type="checkbox" id="dorsal" checked> Dorsal spines</label>
+      <label><input type="checkbox" id="tail" checked> Tail spines</label>
+    </div>
+  </form>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
