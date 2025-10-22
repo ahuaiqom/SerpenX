@@ -1,4 +1,4 @@
-<h1 align="center">SerpenX — Reptile Interactive Cursor (Canvas + OOP)</h1>
+<h1 align="center">SerpenX — Reptile Interactive Cursor (Canvas)</h1>
 
 <p align="center">
   Neon reptile / serpent tail driven by an IK chain on HTML5 Canvas.<br/>
